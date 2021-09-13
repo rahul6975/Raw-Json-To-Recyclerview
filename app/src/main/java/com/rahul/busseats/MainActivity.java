@@ -22,9 +22,6 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
     private RecyclerView recyclerView1;
-    private RecyclerView recyclerView2;
-    private RecyclerView recyclerView3;
-    private RecyclerView recyclerView4;
     private List<String> list4 = new ArrayList<>();
     private List<String> list3 = new ArrayList<>();
     private List<String> list1 = new ArrayList<>();
