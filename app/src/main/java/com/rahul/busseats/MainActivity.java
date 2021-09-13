@@ -61,11 +61,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void addToList() {
         try {
-
-            Boolean seat1 = true;
-            Boolean seat2 = true;
-            Boolean seat3 = true;
-            Boolean seat4 = true;
             String jsonDataString = readJSONDataFromFile();
             JSONArray jsonArray = new JSONArray(jsonDataString);
 
