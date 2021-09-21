@@ -35,11 +35,11 @@ public class MainActivity extends AppCompatActivity {
         recyclerView1 = findViewById(R.id.recyclerview1);
 
         addToList();
-        ViewAdapter1 viewAdapter1 = new ViewAdapter1(list4);
+        ViewAdapter1 viewAdapter = new ViewAdapter1(list4);
 
         GridLayoutManager gridLayoutManager = new GridLayoutManager(this, 4);
         recyclerView1.setLayoutManager(gridLayoutManager);
-        recyclerView1.setAdapter(viewAdapter1);
+        recyclerView1.setAdapter(viewAdapter);
     }
 
     private void addToList() {
